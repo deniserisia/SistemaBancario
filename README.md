@@ -2,7 +2,7 @@
 
 ## ⚙️ Organização/Arquitetura
 
-A aplicação está dividida entre /models e /businessrules, onde tem como foco o treinamento de conceitos de POO utilizando TypeScript, no contexto de um sistema bancario.
+A aplicação está dividida entre /models, /businessrules e main.ts, onde tem como foco o treinamento de conceitos de POO utilizando TypeScript, no contexto de um sistema bancário.
 
 ## ⚙️ Deploy
 
