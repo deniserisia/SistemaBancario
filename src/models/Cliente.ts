@@ -1,4 +1,4 @@
-class Cliente extends Pessoa {
+export class Cliente extends Pessoa {
     private enderecos: string[];
     private vip: boolean;
   
