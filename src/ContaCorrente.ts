@@ -1,4 +1,3 @@
-// Classe ContaCorrente que herda de Conta
 class ContaCorrente extends Conta {
     private creditos: number;
     private debitos: number;
@@ -38,4 +37,4 @@ class ContaCorrente extends Conta {
     calcularSaldo(): number {
       return this.creditos - this.debitos + this.limite;
     }
-  }  
+}  

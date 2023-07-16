@@ -1,4 +1,3 @@
-// Classe ContaPoupanca que herda de Conta
 class ContaPoupanca extends Conta {
     private creditos: number;
     private debitos: number;
@@ -36,5 +35,4 @@ class ContaPoupanca extends Conta {
     calcularSaldo(): number {
       return this.creditos - this.debitos;
     }
-  }
-  
+} 

@@ -1,11 +1,12 @@
-// Classe abstrata Pessoa
 abstract class Pessoa {
     protected nome: string;
-    protected idade: number;
-  
-    constructor(nome: string, idade: number) {
+    protected telefone: string;
+    protected cpf: string;
+    
+    constructor(nome: string, telefone: string, cpf: string) {
       this.nome = nome;
-      this.idade = idade;
+      this.telefone = telefone;
+      this.cpf = cpf;
     }
   
     abstract listarEnderecos(): void; // Método abstrato

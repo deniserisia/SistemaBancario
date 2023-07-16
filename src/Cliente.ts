@@ -1,13 +1,14 @@
-// Classe Cliente que herda de Pessoa
 class Cliente extends Pessoa {
     private enderecos: string[];
+    private vip: boolean;
   
-    constructor(nome: string, idade: number) {
-      super(nome, idade);
+    constructor(nome: string, telefone: string, cpf: string, vip: boolean) {
+      super(nome, telefone, cpf);
       this.enderecos = [];
+      this.vip = vip;
     }
   
     listarEnderecos(): void {
-      console.log("Endereço do cliente:", this.enderecos);
+      console.log("Endereços do cliente:", this.enderecos);
     }
-}  
+} 

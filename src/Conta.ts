@@ -1,5 +1,3 @@
-
-// Classe abstrata Conta
 abstract class Conta {
     protected saldo: number;
   
@@ -7,8 +5,8 @@ abstract class Conta {
       this.saldo = 0;
     }
   
-    abstract depositar(valor: number): void; // Método abstrato
-    abstract sacar(valor: number): void; // Método abstrato
-    abstract transferir(destino: Conta, valor: number): void; // Método abstrato
-    abstract calcularSaldo(): number; // Método abstrato
-}
+    abstract depositar(valor: number): void; 
+    abstract sacar(valor: number): void; 
+    abstract transferir(destino: Conta, valor: number): void; 
+    abstract calcularSaldo(): number; 
+} 
