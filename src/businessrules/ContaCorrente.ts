@@ -1,4 +1,4 @@
-class ContaCorrente extends Conta {
+export class ContaCorrente extends Conta {
     private creditos: number;
     private debitos: number;
     private limite: number;

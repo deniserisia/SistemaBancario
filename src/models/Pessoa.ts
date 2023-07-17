@@ -1,4 +1,4 @@
-abstract class Pessoa {
+export abstract class Pessoa {
     protected nome: string;
     protected telefone: string;
     protected cpf: string;

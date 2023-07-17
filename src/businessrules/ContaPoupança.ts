@@ -1,4 +1,4 @@
-class ContaPoupanca extends Conta {
+export class ContaPoupanca extends Conta {
     private creditos: number;
     private debitos: number;
   
