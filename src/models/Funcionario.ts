@@ -1,4 +1,4 @@
-class Funcionario {
+export class Funcionario {
   protected salario: number;
   protected nome: string;
   protected cpf: string;
@@ -26,13 +26,13 @@ class Funcionario {
   }
 }
 
-class Gerente extends Funcionario {
+export class Gerente extends Funcionario {
   constructor(nome: string, cpf: string, salario: number) {
     super(nome, cpf, salario);
   }
 }
 
-class Atendente extends Funcionario {
+export class Atendente extends Funcionario {
   constructor(nome: string, cpf: string, salario: number) {
     super(nome, cpf, salario);
   }
