@@ -1,9 +1,6 @@
 import { Pessoa } from './Pessoa';
 
 export class Cliente extends Pessoa {
-  getContaCorrente() {
-      throw new Error("Method not implemented.");
-  }
   private enderecos: string[];
   private vip: boolean;
 
