@@ -1,4 +1,4 @@
-class Debito {
+export class Debito {
     private valor: number;
     private data: Date;
   
