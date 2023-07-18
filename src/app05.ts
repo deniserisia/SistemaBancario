@@ -18,5 +18,7 @@ cliente2.adicionarConta(contaCorrente2);
 contaCorrente2.depositar(100);
 contaCorrente1.transferir(contaCorrente2, 1000);
 
-console.log(`Saldo da primeira ContaCorrente: R$ ${contaCorrente1.calcularSaldo()}`);
-console.log(`Saldo da segunda ContaCorrente: R$ ${contaCorrente2.calcularSaldo()}`);
+console.log("------------------------------------------------------------");
+console.log(`Saldo da primeira Conta Corrente do Cliente 1: R$ ${contaCorrente1.calcularSaldo()}`);
+console.log("------------------------------------------------------------");
+console.log(`Saldo da segunda Conta Corrente do Cliente 2: R$ ${contaCorrente2.calcularSaldo()}`);
