@@ -14,4 +14,13 @@ A aplicação está dividida entre /models, /businessrules e main.ts, onde tem c
 
 3. Execução da aplicação:
 
-` npx ts-node src/main.ts`
+Aplicação 1:
+` npx ts-node src/app01.ts`
+Aplicação 2:
+` npx ts-node src/app02.ts`
+Aplicação 3:
+` npx ts-node src/app03.ts`
+Aplicação 4:
+` npx ts-node src/app04.ts`
+Aplicação 5:
+` npx ts-node src/app05.ts`
