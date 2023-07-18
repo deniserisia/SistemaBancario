@@ -3,9 +3,6 @@ import { Debito } from '../models/Debito';
 import { Conta } from '../models/Conta';
 
 export class ContaCorrente extends Conta {
-  definirLimite(arg0: number) {
-      throw new Error("Method not implemented.");
-  }
   private debitos: number;
   private limite: number;
 
@@ -44,5 +41,9 @@ export class ContaCorrente extends Conta {
 
   calcularSaldo(): number {
     return this.creditos - this.debitos + this.limite;
+  }
+
+  definirLimite(limite: number): void {
+    this.limite = limite;
   }
 }
