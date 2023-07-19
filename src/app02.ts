@@ -1,7 +1,7 @@
 //02 aplicação
 import { Cliente } from './models/Cliente';
 
-const cliente1 = new Cliente("João Silva", "123456789", "111.222.333-44", true);
+const cliente1 = new Cliente("João Silva", "Telefone: (11) 9999-9999", "CPF: 123.456.789-00", true);
 
 // Adicionando os 3 endereços para 1 cliente
 cliente1.adicionarEndereco("Rua A, 123");

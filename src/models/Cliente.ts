@@ -1,6 +1,7 @@
 import { ContaCorrente } from '../businessrules/ContaCorrente';
 import { Pessoa } from './Pessoa';
 import { Conta } from "./Conta";
+import { IUsuario } from './IUsuario';
 
 export class Cliente extends Pessoa implements IUsuario {
   private enderecos: string[];

@@ -1,4 +1,3 @@
-// Interface IUsuario
-interface IUsuario {
+export interface IUsuario {
     verificar(): boolean; // Método da interface
 }  
