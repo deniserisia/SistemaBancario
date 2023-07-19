@@ -3,13 +3,13 @@ import { Cliente } from './models/Cliente';
 import { ContaCorrente } from './businessrules/ContaCorrente';
 import { ContaPoupanca } from './businessrules/ContaPoupança';
 
-const cliente1: Cliente = new Cliente("Cliente 1", "123456789", "111.111.111-11", false);
+const cliente1: Cliente = new Cliente("Denise Carvalho", "123456789", "111.111.111-11", false);
 const contaCorrente1: ContaCorrente = new ContaCorrente(0);
 cliente1.adicionarConta(contaCorrente1);
 
 contaCorrente1.depositar(1000);
 
-const cliente2: Cliente = new Cliente("Cliente 2", "987654321", "222.222.222-22", false);
+const cliente2: Cliente = new Cliente("Icaro Oliveira", "987654321", "222.222.222-22", false);
 const contaPoupanca: ContaPoupanca = new ContaPoupanca();
 cliente2.adicionarConta(contaPoupanca);
 
