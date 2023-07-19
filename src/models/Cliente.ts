@@ -2,7 +2,7 @@ import { ContaCorrente } from '../businessrules/ContaCorrente';
 import { Pessoa } from './Pessoa';
 import { Conta } from "./Conta";
 
-export class Cliente extends Pessoa {
+export class Cliente extends Pessoa implements IUsuario {
   private enderecos: string[];
   private vip: boolean;
   private contas: Conta[];
@@ -12,6 +12,10 @@ export class Cliente extends Pessoa {
     this.enderecos = [];
     this.vip = vip;
     this.contas = [];
+  }
+  // add da interface e sua RN
+  verificar(): boolean {
+    return true;
   }
 
   adicionarEndereco(endereco: string): void {

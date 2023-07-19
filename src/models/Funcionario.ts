@@ -1,4 +1,4 @@
-export class Funcionario {
+export class Funcionario implements IUsuario {
   protected salario: number;
   protected nome: string;
   protected cpf: string;
@@ -7,6 +7,10 @@ export class Funcionario {
     this.nome = nome;
     this.cpf = cpf;
     this.salario = salario;
+  }
+  
+  verificar(): boolean {
+    return true;
   }
 
   getSalario(): number {
